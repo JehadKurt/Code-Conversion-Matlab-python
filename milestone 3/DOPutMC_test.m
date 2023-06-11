@@ -1,0 +1,10 @@
+S0=50;
+K=50;
+r=0.1;
+T=2/12;
+sigma=0.4
+Sb=40;
+NSteps=60;
+NRepl=50000;
+randn('seed',0)
+DOPutMC(S0,K,r,T,sigma,Sb,NSteps,NRepl)

@@ -1,0 +1,10 @@
+1. Correct the 2 python files in series1 and compare it with the 2 matlab files
+
+2. Check the python files in series2 are (almost) identical to the results from the matlab files
+   In the last cell of GBM_simulation.ipynb you'd need to add some code to produce the plot
+
+3. Correct the python file in series3 and check that it is identical to the matlab file
+
+4. Check the python files in series4 are (almost) identical to the results from the matlab files
+
+5. Check the python files in series5 are (almost) identical to the results from the matlab files

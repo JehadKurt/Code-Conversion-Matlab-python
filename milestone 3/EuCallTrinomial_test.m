@@ -1,0 +1,15 @@
+S0=100;
+K=100;
+r=0.06;
+T=1;
+sigma=0.3
+N=100;
+deltaX=0.2;
+EuCallTrinomial(S0,K,r,T,sigma,N,deltaX)
+deltaX=0.5;
+EuCallTrinomial(S0,K,r,T,sigma,N,deltaX)
+deltaX=sigma*sqrt(T/N);
+EuCallTrinomial(S0,K,r,T,sigma,N,deltaX)
+N=1000;
+deltaX=sigma*sqrt(T/N);
+EuCallTrinomial(S0,K,r,T,sigma,N,deltaX)

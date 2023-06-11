@@ -1,0 +1,10 @@
+S0=50;
+K=52;
+r=0.1;
+T=2/12;
+sigma=0.4
+Sb=30;
+NSteps=60;
+NRepl=200000;
+randn('seed',0)
+DOPutMCCond(S0,K,r,T,sigma,Sb,NSteps,NRepl)
